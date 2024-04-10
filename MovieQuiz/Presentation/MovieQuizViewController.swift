@@ -1,10 +1,10 @@
 import UIKit
 
 final class MovieQuizViewController: UIViewController {
-    // MARK: - Lifecycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        show(quiz: QuizStepViewModel(image: UIImage(imageLiteralResourceName: "The Godfather"), question: "Рейтинг этого фильма больше чем 6?", questionNumber: "1"))
+        show(quiz: QuizStepViewModel(image: UIImage(imageLiteralResourceName: "The Godfather"), question: "Рейтинг этого фильма больше чем 6?", questionNumber: "1/10"))
         
     }
     private func show(quiz step: QuizStepViewModel) {
